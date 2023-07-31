@@ -6,10 +6,11 @@
 - [Downloading Data and Checkpoints](#downloading-data-and-checkpoints)
 - [Usage](#usage)
 - [Training](#training)-->
+- [Introduction](#Introduction)
 - [Citation](#Citation)
 <!-- /MarkdownTOC -->
 
-
+# Introduction
 [GRG](https://arxiv.org/abs/2307.11278) Generator-Retriever-Generator: A Novel Approach to Open-domain Question Answering. 
 
 **GRG approach**
