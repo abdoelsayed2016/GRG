@@ -103,4 +103,5 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
+
     retriever_data(f'indatasets/{args.dataset}/{args.split}.json', args.model_name, f'outdatasets/{args.dataset}/{args.split}.json', args.top_k)
