@@ -9,7 +9,7 @@
 ├── indatasets              # Input dataset (NQ, TQA, WEBQ)
 ├── outdatasets             # Output dataset (NQ, TQA, WEBQ)
 └── main.py                 # Main code file
-
+```
 ### retreive generated Documents
 Use the following command to retrieve generated documents using the Document Generator Retriever (DGR):
 
