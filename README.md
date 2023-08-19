@@ -10,7 +10,7 @@
 - [Citation](#Citation)
 <!-- /MarkdownTOC -->
 
-# Introduction
+## Introduction
 [Generator-Retriever-Generator: A Novel Approach to Open-domain Question Answering](https://arxiv.org/abs/2307.11278). 
 
 
@@ -26,15 +26,15 @@
 </p>
 <a id="Requirements"></a>-->
 
-# Requirements
+## Requirements
 ```
 $ conda create -n grg
 $ conda activate  grg
 $ pip install -r requirements.txt
 ```
 
-# Document Generator(DG)
-# Document Generator Retriever(DGR)
+## Document Generator(DG)
+## Document Generator Retriever(DGR)
 
 <a id="Citation"></a>
 # Citation
