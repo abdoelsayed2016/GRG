@@ -1,40 +1,48 @@
 <a id="contents"></a>
-# Contents
+# Table of Contents
 <!-- MarkdownTOC -->
-<!--
+<!-- 
 - [Requirements](#Requirements)
 - [Downloading Data and Checkpoints](#downloading-data-and-checkpoints)
 - [Usage](#usage)
-- [Training](#training)-->
+- [Training](#training) -->
 - [Introduction](#Introduction)
+- [Requirements](#Requirements)
+- [Document Generator (DG)](./DG)
+- [Document Generator Retriever (DGR)](./DGR)
 - [Citation](#Citation)
 <!-- /MarkdownTOC -->
 
 ## Introduction
-[Generator-Retriever-Generator: A Novel Approach to Open-domain Question Answering](https://arxiv.org/abs/2307.11278). 
+Welcome to the repository for [Generator-Retriever-Generator: A Novel Approach to Open-domain Question Answering](https://arxiv.org/abs/2307.11278). In this work, we present the GRG approach for tackling open-domain question answering challenges.
 
+**GRG Approach**
+<div align="center">
+  <img src="images/GRG.png" alt="GRG Approach Diagram">
+</div>
 
-
-**GRG approach**
-<p align="center">
-  <img src="images/GRG.png">
-</p>
-
-<!--**Comparison with other approaches**
-<p align="center">
-  <img src="images/result.png">
-</p>
+<!--**Comparison with Other Approaches**
+<div align="center">
+  <img src="images/result.png" alt="Comparison with Other Approaches">
+</div>
 <a id="Requirements"></a>-->
 
 ## Requirements
-```
+Make sure you have the required environment set up to run the GRG project:
+
+```bash
 $ conda create -n grg
-$ conda activate  grg
+$ conda activate grg
 $ pip install -r requirements.txt
 ```
 
+
 ## [Document Generator(DG)](./DG)
+In the Document Generator (DG) directory you'll encounter code designed to create documents using few-shot learning methodologies
 ## [Document Generator Retriever(DGR)](./DGR)
+In the Document Generator (DG) directory, you'll uncover a retriever specifically crafted for the document generator, employing sentence transformers for enhanced performance.
+
+
 
 <a id="Citation"></a>
 # Citation
@@ -49,4 +57,3 @@ If you find these codes or data useful, please consider citing our paper as:
   year={2023}
 }
 ```
-
