@@ -34,7 +34,7 @@ $ pip install -r requirements.txt
 ```
 
 # Document Generator(DG)
-# DG Retriever(DGR)
+# Document Generator Retriever(DGR)
 
 <a id="Citation"></a>
 # Citation
