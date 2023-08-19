@@ -18,14 +18,18 @@
   <img src="images/GRG.png">
 </p>
 
-**Comparison with other approaches**
+<!--**Comparison with other approaches**
 <p align="center">
   <img src="images/result.png">
 </p>
-<a id="Requirements"></a>
+<a id="Requirements"></a>-->
 
 # Requirements
-
+```
+$ conda create -n grg
+$ conda activate  grg
+$ pip install -r requirements.txt
+```
 <a id="Citation"></a>
 # Citation
 
