@@ -5,7 +5,7 @@
     .
     ├── indatasets                   # input dataset (NQ,TQA,WEBQ)
     ├── outdatasets                   # output dataset (NQ,TQA,WEBQ)
-    └──main.py                      
+    └── main.py                      
 
 
 ### retreive generated Documents
