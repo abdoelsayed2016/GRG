@@ -92,11 +92,15 @@ def retriever_data(file_path, model_name, output_filename, top_k=5,
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--file_path', required=True, help='Path to the input JSON file')
+    parser.add_argument("--dataset", default=None, type=str, required=True,
+        help="dataset name: [nq, tqa, webq]",
+    )
+    parser.add_argument("--split", default=None, type=str, required=True,
+        help="dataset split: [train, dev, test]",
+    )
     parser.add_argument('--model_name', required=True, help='Name of the Hugging Face model')
-    parser.add_argument('--output_filename', required=True, help='Path to the output JSON file')
     parser.add_argument('--top_k', required=False,default=5, help='Path to the output JSON file')
     
     args = parser.parse_args()
 
-    retriever_data(args.file_path, args.model_name, args.output_filename, args.top_k)
+    retriever_data(f'indatasets/{args.dataset}/{args.split}.json', args.model_name, f'outdatasets/{args.dataset}/{args.split}.json', args.top_k)

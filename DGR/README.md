@@ -11,5 +11,5 @@
 ### retreive generated Documents
 
 ```
-python main.py --file_path indatasets/nq/train.json --model_name [sentence-transformers/gtr-t5-large,sentence-transformers/all-MiniLM-L6-v2] --output_filename outdatasets/nq/train.json --top_k [3,5]
+python main.py --dataset [nq, tqa, webq] --split [train, dev, test] --model_name [sentence-transformers/gtr-t5-large,sentence-transformers/all-MiniLM-L6-v2]  --top_k [3,5]
 ``` 
