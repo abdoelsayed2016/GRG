@@ -1,11 +1,6 @@
 
 ## Code for Document Generator (DG)
 
-### Introduction & Setup
-
-To get started with the Document Generator (DG) code, follow these steps:
-
-1. Add your OpenAI API key to `openai.api_key` (line 12) in the `utils.py` file.
 
 ### Repository Structure
 
@@ -17,8 +12,16 @@ To get started with the Document Generator (DG) code, follow these steps:
 ├── main.py                 # Main code file
 ├── process.py              # Processing utilities
 └── utils.py                # Utility functions
+```
+### Introduction & Setup
+
+To get started with the Document Generator (DG) code, follow these steps:
+
+1. Add your OpenAI API key to `openai.api_key` in the `utils.py` file.
+
+
 ### Few-shot Learning to generate Documents
-Use the following command to execute the few-shot learning process for document generation:
+2. Use the following command to execute the few-shot learning process for document generation:
 
 
 ```bash
