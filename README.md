@@ -33,8 +33,8 @@ $ conda activate  grg
 $ pip install -r requirements.txt
 ```
 
-## Document Generator(DG)
-## Document Generator Retriever(DGR)
+## [Document Generator(DG)](./DG)
+## [Document Generator Retriever(DGR)](./DGR)
 
 <a id="Citation"></a>
 # Citation
