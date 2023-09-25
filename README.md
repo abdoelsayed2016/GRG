@@ -42,6 +42,12 @@ In the Document Generator (DG) directory you'll encounter code designed to creat
 ## [Document Generator Retriever(DGR)](./DGR)
 In the Document Generator (DG) directory, you'll uncover a retriever specifically crafted for the document generator, employing sentence transformers for enhanced performance.
 
+## [Document  Retriever(DR)](./DGR)
+Will be available soon................
+
+## [LLaMA Generator](./DGR)
+Will be available soon................
+
 
 
 <a id="Citation"></a>
